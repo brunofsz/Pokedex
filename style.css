@@ -85,3 +85,33 @@ input[type="button"]:hover {
   margin: 0 auto 10px;
   max-width: 120px;
 }
+@media (max-width: 768px) {
+  body {
+    margin-left: 0;
+    flex-direction: column;
+    justify-content: center; 
+  }
+
+  .form {
+    width: 90vw;
+    height: 37vh;
+    padding: 20px;
+  }
+
+  input[type="text"] {
+    width: 80vw;
+    font-size: 4vw;
+    height: 8vh;
+  }
+
+  input[type="button"] {
+    width: 50vw;
+    height: 8vh;
+    font-size: 4vw;
+  }
+
+  #detalhes {
+    width: 90vw;
+    font-size: 4vw; 
+  }
+}
