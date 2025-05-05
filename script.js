@@ -31,11 +31,12 @@ function buscaPkm() {
     })
     .then(pokemon => {
       details.innerHTML = `
+      <div>
         <h2>${capitalizePrimeiraLetra(pokemon.name)}</h2>
-        <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}" />
+        <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}" /></div> <div>
         <p><strong>Tipo(s):</strong> ${pokemon.types.map(t => t.type.name).join(', ')}</p>
         <p><strong>Altura: </strong> ${(pokemon.height / 10).toFixed(1)} M</p>
-        <p><strong>Peso: </strong> ${(pokemon.weight / 10).toFixed(1)} Kg</p>
+        <p><strong>Peso: </strong> ${(pokemon.weight / 10).toFixed(1)} Kg</p></div>
       `;
       details.style.display = 'block';
     })
