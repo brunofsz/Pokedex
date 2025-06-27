@@ -49,4 +49,4 @@ function buscaPkm() {
 
 function capitalizePrimeiraLetra(texto) {
   return texto.charAt(0).toUpperCase() + texto.slice(1).toLowerCase();
-}
+}"// For‡ando o GitHub a identificar JS" 
