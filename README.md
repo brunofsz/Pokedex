@@ -6,7 +6,6 @@ Este é um projeto simples de uma **Pokédex** desenvolvida com **HTML, CSS e Ja
 
 - Busca de Pokémon por nome ou número
 - Exibição de imagem, nome, número e tipo do Pokémon
-- Navegação entre Pokémon anteriores e posteriores
 - Layout responsivo e interativo
 
 ## 🧠 Tecnologias utilizadas
