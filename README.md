@@ -26,4 +26,4 @@ Este é um projeto simples de uma **Pokédex** desenvolvida com **HTML, CSS e Ja
 
 ## 📸 Preview
 
-![Preview](readme/preview.png)
+![Preview](Assets/Preview.png)
